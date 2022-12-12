@@ -6,7 +6,7 @@ import {MongooseModule} from "@nestjs/mongoose";
 import {APP_PIPE} from "@nestjs/core";
 import { TaskModule } from './task/task.module';
 
-const mongoDbConnectionUrl = 'mongodb+srv://zeynal:290713@cluster0.oypjeiq.mongodb.net/nest-react-app';
+const mongoDbConnectionUrl = '';
 
 @Module({
   imports: [MongooseModule.forRoot(mongoDbConnectionUrl),
